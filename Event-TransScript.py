@@ -399,7 +399,7 @@ class FileSigExtractor:
 def main():
     parser = argparse.ArgumentParser(
         description='''Windows Forensic Tool - Combines EventTranscript.db analysis and file signature extraction capabilities''',
-        epilog= '''Based on tools by Abhiram Kumar (stuxnet999/@_abhiramkumar)''')
+        
     
     # Main command group
     subparsers = parser.add_subparsers(dest='command', help='Command to run')
